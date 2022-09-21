@@ -1,12 +1,13 @@
-    let num=11;
+
+    let number=15
     let flag="No";
-    let count=0;
-    for(let i=1;i<=num;i++){
-        if(num%i===0){
-            count++;
+    let factors=0;
+    for(let i=1;i<=number;i++){
+        if(number%i===0){
+            factors++;
         }
     }
-    if(count==2){
+    if(factors==2){
         flag="Yes";
     }
     console.log(flag);
