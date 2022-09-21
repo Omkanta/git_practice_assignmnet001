@@ -1,3 +1,4 @@
+    let num=11;
     let flag="No";
     let count=0;
     for(let i=1;i<=num;i++){
@@ -5,7 +6,7 @@
             count++;
         }
     }
-    if(count<=2){
+    if(count==2){
         flag="Yes";
     }
     console.log(flag);
